@@ -4,7 +4,7 @@ def min_hours(num):
     hours = str(num // 60) 
     minutes = str(num % 60)
     
-    output = "{} hrs {} minutes"(hours, minutes)
+    output = "{} hrs {} minutes".format(hours, minutes)
     
     return output
 
